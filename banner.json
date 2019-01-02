@@ -10,8 +10,8 @@
   ],
   "propertyOrder": [
     "bannerImage",
-    "subheader",
     "header",
+    "subheader",
     "description",
     "button",
     "textPositionLeft",
@@ -46,19 +46,19 @@
       "title": "Banner Image",
       "description": "Select or create an image content"
     },
+    "header": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 255,
+      "title": "Header",
+      "description": "add Header"
+    },
     "subheader": {
       "type": "string",
       "minLength": 0,
       "maxLength": 255,
       "title": "Subheader",
       "description": "add subheader"
-    },
-    "header": {
-      "type": "string",
-      "minLength": 0,
-      "maxLength": 255,
-      "title": "Header",
-      "description": "add header"
     },
     "description": {
       "type": "string",
