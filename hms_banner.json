@@ -1,8 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
-  "title": "Banner Accelerator",
-  "description": "Banner Accelerator",
+  "id": "https://raw.githubusercontent.com/jongossett622/contentTypes-rs/master/hms_banner.json",
+  "title": "HMS Example v2",
+  "description": "HMS Example v2",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -11,6 +11,7 @@
   "propertyOrder": [
     "bannerImage",
     "header",
+    "kioskheader",
     "subheader",
     "description",
     "button",
@@ -36,7 +37,7 @@
               "contentType": {
                 "title": "image",
                 "enum": [
-                  "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/image.json"
+                  "https://raw.githubusercontent.com/jongossett622/contentTypes-rs/master/image.json"
                 ]
               }
             }
@@ -51,6 +52,13 @@
       "minLength": 0,
       "maxLength": 255,
       "title": "Header",
+      "description": "add Header"
+    },
+    "kioskheader": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 255,
+      "title": "Kiosk Header",
       "description": "add Header"
     },
     "subheader": {
@@ -73,7 +81,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/link.json"
+          "$ref": "https://raw.githubusercontent.com/jongossett622/contentTypes-rs/master/link.json"
         }
       ]
     },
