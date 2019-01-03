@@ -1,8 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
   "id": "https://raw.githubusercontent.com/jongossett622/contentTypes-rs/master/hms_banner.json",
-  "title": "HMS Example v2",
-  "description": "HMS Example v2",
+  "title": "HMS Example rs",
+  "description": "HMS Example rs",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -51,10 +51,10 @@
       "type": "string",
       "minLength": 0,
       "maxLength": 255,
-      "title": "Header",
+      "title": "Menu Board Header",
       "description": "add Header"
     },
-    "kioskheader": {
+      "kioskheader": {
       "type": "string",
       "minLength": 0,
       "maxLength": 255,
@@ -66,7 +66,7 @@
       "minLength": 0,
       "maxLength": 255,
       "title": "Subheader",
-      "description": "add subheader"
+      "description": "add Subheader"
     },
     "description": {
       "type": "string",
